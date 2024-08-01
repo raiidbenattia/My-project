@@ -8,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: Roboto;
 }
 
 :root {
@@ -142,11 +142,11 @@ nav button#menuButton {
     color: var(--main-color);
     font-size: 22px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main .left button,
 .get .left button {
-    margin-top: 40px;
     color: #fff;
     cursor: pointer;
     background-color: var(--hv-color);
@@ -189,7 +189,6 @@ nav button#menuButton {
     border-radius: 10px;
     padding: 32px;
     border-bottom: 4px solid transparent;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -296,7 +295,6 @@ nav button#menuButton {
     background-color: #fff;
     border-radius: 10px;
     border-bottom: 4px solid transparent;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -354,7 +352,6 @@ nav button#menuButton {
     border: 2px solid #006b6a;
     border-radius: 10px;
     padding: 30px;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -579,7 +576,7 @@ footer .bottom .links p {
 
     .main .right img,
     .get .right img {
-        width: 380px;
+        width: 345px;
     }
 
     .skills .skill-items {
@@ -726,12 +723,13 @@ footer .bottom .links p {
     }
 
     .contactini {
-        flex-direction: row;
+        width: 100%;
+        flex-direction: column;
         gap: 10px;
     }
 
     .contactini .cont {
-        width: 200px;
+        width: 100%;
     }
 
     .contactini h4 {
